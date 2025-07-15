@@ -5,18 +5,18 @@ name: Writeup-Readme
 on:
   push:
     branches: 
-      - 'master'
+      - 'main'
     paths:
-      - 'writeup.pdf'
+      - 'marcus-roldan-resume.pdf'
       - '.README.md'
-      - '.github/workflows/writeup_readme.yml'
+      - '.github/workflows/writeup-readme.yml'
 
 jobs:
   run:
     runs-on: ubuntu-latest
     env:
       ORPHAN_BRANCH: readme_images
-      QUALITY: 85
+      QUALITY: 90
       DPI: 250
     steps:
     - uses: actions/checkout@v2
