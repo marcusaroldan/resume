@@ -4,4 +4,4 @@ Welcome to my portfolio repository. This repository contains my professional res
 
 ## Resume
 
-<embed src="marcus-roldan-resume.pdf" type="application/pdf" width="100%" height="600px" />
+[View Resume (PDF)](marcus-roldan-resume.pdf)
