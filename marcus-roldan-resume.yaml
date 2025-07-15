@@ -1,0 +1,136 @@
+cv:
+  name: Marcus Roldan
+  email: marcusaroldan@gmail.com
+  phone: tel:+19732293445
+  social_networks:
+    - network: LinkedIn
+      username: marcusaroldan
+    - network: GitHub
+      username: marcusaroldan
+  website: https://marcusaroldan.github.io/project-portfolio/
+  sections:
+    work_experience:
+      - company: Eden, Inc.
+        position: Forward Deployed Software Engineer
+        start_date: 2025-01
+        highlights:
+          - Architected and implemented end-to-end technical solutions for core MVP features, establishing foundational patterns for future product scaling and development.
+          - Spearheaded technical decision-making and system design, driving critical architectural choices that balanced rapid development with long-term maintainability.
+          - Developed innovative solutions by integrating open-source technologies with custom-built tools, creating efficient development workflows that maximized limited startup resources.
+          - Led strategic technical initiatives, contributing to both product development and technical infrastructure establishment.
+          - Established engineering best practices and development frameworks from the ground up, helping to build the technical foundation for the company.
+      - company: Wishroute, Inc.
+        position: Full-time Software Engineer Intern
+        location: Portland, ME
+        start_date: 2022-01
+        end_date: 2022-08
+        highlights:
+          - Worked cross-functionally with Operations and Technical team members to synthesize requirements for internal and customer-facing analytics dashboards.
+          - Built SQL queries to allow for efficient, scalable KPIs and designed clear, insightful dashboards.
+          - Contributed to product development and updates to Java backend infrastructure in an AWS serverless architecture.
+          - Participated in business strategy and product development discussions.
+          - Embraced a dynamic high-growth startup environment and demonstrated the ability to adjust responsibilities to align against business priorities.
+    education:
+      - institution: Khoury College of Computer Sciences at Northeastern University
+        area: Computer Science, concentration in Artificial Intelligence
+        degree: BS
+        start_date: 2020-09
+        end_date: 2024-12
+        highlights:
+          - 'Relevant Courses: Artificial Intelligence | Natural Language Processing | Software Development'
+          - 'Honors and Badges: **GPA: 3.41 / 4.00** | Northeastern Global Work Citizen Badge | Dean’s List'
+          - 'Activities: Spanish Honors Society (Sigma Delta Pi), Transportation Engineering Club, Refugee and Immigrant Cross-cultural Conversation Partner Program, Computer Science Mentorship Organization'
+    projects:
+      - name: Personal Retrieval Augmented Generation System
+        date: (Python, LangChain)
+        highlights:
+          - Developed a Python-based Retrieval Augmented Generation (RAG) system using LangChain and OpenAI's GPT models, implementing vector similarity search with ChromaDB and HuggingFace embeddings to enable accurate document retrieval and contextual question answering.
+          - Architected a scalable document processing pipeline supporting PDF, HTML, and Markdown formats, utilizing NLTK and unstructured.io for text extraction, with intelligent chunking and batch processing to handle large document collections efficiently.
+          - Implemented a configurable command-line interface with YAML-based configuration management, allowing dynamic selection of LLM models, fine-tuning of embedding parameters, and customization of retrieval settings for optimal performance.
+      - name: '311 Infrastructure Issues Identifier [(Prototype)](https://marcusaroldan.github.io/311-infrastructure-issue-identifier/)'
+        date: (Python)
+        highlights: 
+          - Performed text-classification on reports of Illegal Parking to diagnose infrastructure issues around Boston.
+          - 'Classification strategy: fuzzy keyword matching, with a pipeline to refresh data from Boston’s 311 API.'
+          - Implemented interactive front-end using MapBox GL to visualize geospatial data and support data filtering.
+          - Collaborated with the Boston Cyclist Union’s Data Science team for inclusion into upcoming data-dashboard.
+      - name: 'Boston Integrated Cycle Route Engine [(BICRE)](https://github.com/marcusaroldan/bicre)'
+        date: (Python, Flask)
+        highlights: 
+          - Augmented functionality of Google Maps to create integrated (cycling and transit) routes.
+          - Incorporated Google’s Directions/Geocoding APIs, Maps JS Library; MBTA API to create routes.
+    Skills,_Tools,_and_Technical_Knowledge:
+    - Python, React, Next.js, Git, v0, BuildShip, OpenAI API, SQL, AWS, NumPy, Pandas, Scikit-Learn, PyTorch, Matplotlib, Mapbox
+
+design:
+  theme: engineeringresumes
+  font: Charter
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: true
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: true
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 24 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 0.5 cm
+      bottom: 0.5 cm
+      left: 0.5 cm
+      right: 0.5 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.1 cm
+      bottom: 0.1 cm
+      horizontal_between_connections: 0.3 cm
+
+locale_catalog:
+  phone_number_format: national 
+  date_style: "MONTH_ABBREVIATION YEAR" 
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: to
