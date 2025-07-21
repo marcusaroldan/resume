@@ -4,12 +4,12 @@ name: Writeup-Readme
 
 on:
   push:
-    branches: 
-      - 'main'
-    paths:
-      - 'marcus-roldan-resume.pdf'
-      - '.README.md'
-      - '.github/workflows/writeup-readme.yml'
+    # branches: 
+    #   - 'main'
+    # paths:
+    #   - 'marcus-roldan-resume.pdf'
+    #   - '.README.md'
+    #   - '.github/workflows/writeup-readme.yml'
 
 jobs:
   run:
