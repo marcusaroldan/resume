@@ -70,6 +70,9 @@ design:
     left_margin: 0.5cm
     show_page_numbering: false
     show_last_updated_date: false
+  header:
+    vertical_space_between_name_and_connections: 0.35cm
+    vertical_space_between_connections_and_first_section: 0.35cm
 rendercv_settings:
   render_command:
     output_folder_name: rendercv_output
@@ -77,6 +80,6 @@ rendercv_settings:
     typst_path: marcus-roldan-resume.typ
     html_path: marcus-roldan-resume.html
     markdown_path: marcus-roldan-resume.md
-    dont_generate_html: false 
-    dont_generate_markdown: false 
+    dont_generate_html: true
+    dont_generate_markdown: true 
     dont_generate_png: false
