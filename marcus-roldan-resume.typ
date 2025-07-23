@@ -461,12 +461,36 @@
 
 
 
+== Professional Summary
+
+
+#one-col-entry(
+  content: [Recent CS graduate with a focus on artificial intelligence, full-stack web development, and applied civic tech. Proven ability to lead technical teams in startup environments and build scalable ML-backed solutions. Passionate about delivering impactful tools that integrate data, cloud infrastructure, and user-focused design.]
+)
+
+
+== Skills, Tools, and Technical Knowledge
+
+
+#one-col-entry(
+  content: [#strong[Languages]: Python, Java, SQL, JavaScript\/TypeScript]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Frameworks\/Libraries]: Express, Auth.js, Next.js, Flask, React, LangChain, Scikit-Learn, PyTorch]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[AI\/ML Tools]: Amazon Bedrock, SageMaker, Rekognition, Textract; OpenAI Models; HuggingFace; NLTK; Pandas; NumPy; Matplotlib]
+)
+
+
 == Work Experience
 
 
 #two-col-entry(
   left-content: [
-    #strong[Forward Deployed Software Engineer], Eden, Inc. 
+    #strong[Forward Deployed Software Engineer], #link("https://edenonearth.ai/")[Eden, Inc.] 
   ],
   right-content: [
     Jan 2025 – present
@@ -474,7 +498,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led the development team through a critical transition period, maintaining product momentum while architecting and implementing end-to-end technical solutions for core MVP features.],[Stepped up as acting technical lead, owning all technical decision-making and system design to balance rapid development with long-term scalability amid resource constraints.],[Directed team execution of strategic technical initiatives, establishing engineering best practices, development frameworks, and infrastructure from the ground up.],[Mentored developers while innovating solutions that integrated open-source tools with custom workflows, maximizing efficiency under limited startup resources.],[Assumed full ownership of the product's technical foundation, ensuring continuity of operations while establishing patterns for future scaling.],)
+    #v(design-highlights-top-margin);#highlights([Led MVP development during a key transition; balanced speed with scalable architecture.],[Acted as interim technical lead; defined engineering frameworks, practices, and team direction.],[Mentored junior developers and integrated open-source tools to optimize delivery.],[Owned product infrastructure and laid groundwork for future scaling.],)
   ],
 )
 
@@ -489,7 +513,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Worked cross-functionally with Operations and Technical team members to synthesize requirements for internal and customer-facing analytics dashboards.],[Built SQL queries to allow for efficient, scalable KPIs and designed clear, insightful dashboards.],[Contributed to product development and updates to Java backend infrastructure in an AWS serverless architecture.],[Participated in business strategy and product development discussions.],[Embraced a dynamic high-growth startup environment and demonstrated the ability to adjust responsibilities to align against business priorities.],)
+    #v(design-highlights-top-margin);#highlights([Built scalable KPIs and SQL-powered dashboards for internal and customer-facing analytics.],[Contributed to Java backend improvements in AWS serverless architecture.],[Participated in product strategy and adapted quickly within startup priorities.],)
   ],
 )
 
@@ -567,13 +591,5 @@
   ],
 )
 
-
-
-== Skills, Tools, and Technical Knowledge
-
-
-#one-col-entry(
-  content: [AWS \(Lambda, EC2, CDK, DynamoDB, CloudWatch, API Gateway, S3, etc.\), React, TypeScript, Bash, Python, Next.js, Git, v0, BuildShip, OpenAI API, SQL, NumPy, Pandas, Scikit-Learn, PyTorch, Matplotlib, Mapbox]
-)
 
 
