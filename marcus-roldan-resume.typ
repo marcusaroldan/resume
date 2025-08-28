@@ -465,7 +465,7 @@
 
 
 #one-col-entry(
-  content: [Recent CS graduate with a focus on artificial intelligence, full-stack web development, and applied civic tech. Proven ability to lead technical teams in startup environments and build scalable ML-backed solutions. Passionate about delivering impactful tools that integrate data, cloud infrastructure, and user-focused design.]
+  content: [CS graduate with a focus on Artificial Intelligence, full-stack web development, and applied civic tech. Proven ability to lead technical teams in startup environments and build scalable ML-backed solutions. Passionate about delivering impactful tools that integrate data, cloud infrastructure, and user-focused design.]
 )
 
 
