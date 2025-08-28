@@ -10,7 +10,7 @@ cv:
   website: https://marcusaroldan.github.io/project-portfolio/)
   sections:
     Professional_Summary: 
-    - Recent CS graduate with a focus on artificial intelligence, full-stack web development, and applied civic tech. Proven ability to lead technical teams in startup environments and build scalable ML-backed solutions. Passionate about delivering impactful tools that integrate data, cloud infrastructure, and user-focused design.
+    - CS graduate with a focus on Artificial Intelligence, full-stack web development, and applied civic tech. Proven ability to lead technical teams in startup environments and build scalable ML-backed solutions. Passionate about delivering impactful tools that integrate data, cloud infrastructure, and user-focused design.
     Skills,_Tools,_and_Technical_Knowledge:
     - '**Languages**: Python, Java, SQL, JavaScript/TypeScript'
     - '**Frameworks/Libraries**: Express, Auth.js, Next.js, Flask, React, LangChain, Scikit-Learn, PyTorch'
