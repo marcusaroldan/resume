@@ -7,7 +7,7 @@ cv:
       username: marcusaroldan
     - network: GitHub
       username: marcusaroldan
-  website: https://marcusaroldan.github.io/project-portfolio/
+  website: https://marcusaroldan.github.io/project-portfolio/)
   sections:
     Professional_Summary: 
     - Recent CS graduate with a focus on artificial intelligence, full-stack web development, and applied civic tech. Proven ability to lead technical teams in startup environments and build scalable ML-backed solutions. Passionate about delivering impactful tools that integrate data, cloud infrastructure, and user-focused design.
@@ -19,11 +19,20 @@ cv:
       - company: '[Eden, Inc.](https://edenonearth.ai/)'
         position: Forward Deployed Software Engineer
         start_date: 2025-01
+        end_date: 2025-08
         highlights:
-          - Led MVP development during a key transition; balanced speed with scalable architecture.
-          - Acted as interim technical lead; defined engineering frameworks, practices, and team direction.
-          - Mentored junior developers and integrated open-source tools to optimize delivery.
-          - Owned product infrastructure and laid groundwork for future scaling.
+          - Spearheaded investor demo development and enhanced MVP functionality, accelerating product validation and stakeholder engagement.
+          - Influenced product direction and technical strategy through active participation in high-impact planning and leadership discussions.
+          - Interviewed, onboarded, and mentored an intern, fostering a collaborative and growth-oriented engineering culture.
+      - company: '[Eden, Inc.](https://edenonearth.ai/)'
+        position: Lead Technical Engineer
+        start_date: 2025-08
+        highlights:
+          - Lead ongoing feature development and architectural enhancements for the MVP and upcoming product launch, leveraging AWS serverless microservices architecture.
+          - Orchestrate onboarding and mentorship for an expanded engineering team, ensuring rapid integration and knowledge transfer during a critical leadership transition.
+          - Serve as the primary technical liaison for external partners, investors, and third-party services, providing authoritative guidance on architecture and infrastructure.
+          - Drive the transition to Agile Scrum, collaborating with the Product Owner and Scrum Master to establish SOPs, optimize development velocity, and align cross-functional teams for successful delivery.
+          - Shape company direction and technical vision during a pivotal leadership transition, managing team growth and organizational strategy.
       - company: Wishroute, Inc.
         position: Full-time Software Engineer Intern
         location: Portland, ME
@@ -64,16 +73,19 @@ cv:
           - Incorporated Google’s Directions/Geocoding APIs, Maps JS Library; MBTA API to create routes.
 design:
   theme: engineeringresumes
+  text:
+    font_size: 9pt
   page:
     size: us-letter 
-    top_margin: 0.5cm
-    bottom_margin: 0.5cm
-    left_margin: 0.5cm
+    top_margin: 0.25cm
+    bottom_margin: 0.25cm
+    left_margin: 0.25cm
+    right_margin: 0.25cm
     show_page_numbering: false
     show_last_updated_date: false
   header:
-    vertical_space_between_name_and_connections: 0.35cm
-    vertical_space_between_connections_and_first_section: 0.35cm
+    vertical_space_between_name_and_connections: 0.3cm
+    vertical_space_between_connections_and_first_section: 0.3cm
 rendercv_settings:
   render_command:
     output_folder_name: rendercv_output

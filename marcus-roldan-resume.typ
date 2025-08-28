@@ -3,7 +3,7 @@
 
 #let name = "Marcus Roldan"
 #let locale-catalog-page-numbering-style = context { "Marcus Roldan - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in July 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in Aug 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.2em
@@ -22,7 +22,7 @@
 #let design-section-titles-vertical-space-below = 0.3cm
 #let design-section-titles-small-caps = false
 #let design-links-use-external-link-icon = false
-#let design-text-font-size = 10pt
+#let design-text-font-size = 9pt
 #let design-text-leading = 0.6em
 #let design-text-font-family = "XCharter"
 #let design-text-alignment = "justified"
@@ -33,8 +33,8 @@
 #let design-header-name-font-size = 25pt
 #let design-header-name-bold = false
 #let design-header-connections-font-family = "XCharter"
-#let design-header-vertical-space-between-name-and-connections = 0.35cm
-#let design-header-vertical-space-between-connections-and-first-section = 0.35cm
+#let design-header-vertical-space-between-name-and-connections = 0.3cm
+#let design-header-vertical-space-between-connections-and-first-section = 0.3cm
 #let design-header-use-icons-for-connections = false
 #let design-header-horizontal-space-between-connections = 0.5cm
 #let design-header-separator-between-connections = "|"
@@ -50,10 +50,10 @@
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
 #let design-entries-left-and-right-margin = 0cm
-#let design-page-top-margin = 0.5cm
-#let design-page-bottom-margin = 0.5cm
-#let design-page-left-margin = 0.5cm
-#let design-page-right-margin = 2cm
+#let design-page-top-margin = 0.25cm
+#let design-page-bottom-margin = 0.25cm
+#let design-page-left-margin = 0.25cm
+#let design-page-right-margin = 0.25cm
 #let design-page-show-last-updated-date = false
 #let design-page-show-page-numbering = false
 #let design-links-underline = true
@@ -453,7 +453,7 @@
 #let connections-list = (
   [#box(original-link("mailto:marcusaroldan@gmail.com")[marcusaroldan\@gmail.com])],
   [#box(original-link("tel:+1-973-229-3445")[\(973\) 229-3445])],
-  [#box(original-link("https://marcusaroldan.github.io/project-portfolio/")[marcusaroldan.github.io\/project-portfolio])],
+  [#box(original-link("https://marcusaroldan.github.io/project-portfolio/)")[marcusaroldan.github.io\/project-portfolio\/\)])],
   [#box(original-link("https://linkedin.com/in/marcusaroldan")[linkedin.com\/in\/marcusaroldan])],
   [#box(original-link("https://github.com/marcusaroldan")[github.com\/marcusaroldan])],
 )
@@ -493,12 +493,27 @@
     #strong[Forward Deployed Software Engineer], #link("https://edenonearth.ai/")[Eden, Inc.] 
   ],
   right-content: [
-    Jan 2025 – present
+    Jan 2025 – Aug 2025
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led MVP development during a key transition; balanced speed with scalable architecture.],[Acted as interim technical lead; defined engineering frameworks, practices, and team direction.],[Mentored junior developers and integrated open-source tools to optimize delivery.],[Owned product infrastructure and laid groundwork for future scaling.],)
+    #v(design-highlights-top-margin);#highlights([Spearheaded investor demo development and enhanced MVP functionality, accelerating product validation and stakeholder engagement.],[Influenced product direction and technical strategy through active participation in high-impact planning and leadership discussions.],[Interviewed, onboarded, and mentored an intern, fostering a collaborative and growth-oriented engineering culture.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Lead Technical Engineer], #link("https://edenonearth.ai/")[Eden, Inc.] 
+  ],
+  right-content: [
+    Aug 2025 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Lead ongoing feature development and architectural enhancements for the MVP and upcoming product launch, leveraging AWS serverless microservices architecture.],[Orchestrate onboarding and mentorship for an expanded engineering team, ensuring rapid integration and knowledge transfer during a critical leadership transition.],[Serve as the primary technical liaison for external partners, investors, and third-party services, providing authoritative guidance on architecture and infrastructure.],[Drive the transition to Agile Scrum, collaborating with the Product Owner and Scrum Master to establish SOPs, optimize development velocity, and align cross-functional teams for successful delivery.],[Shape company direction and technical vision during a pivotal leadership transition, managing team growth and organizational strategy.],)
   ],
 )
 
