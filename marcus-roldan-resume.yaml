@@ -17,14 +17,6 @@ cv:
     - '**AI/ML Tools**: Amazon Bedrock, SageMaker, Rekognition, Textract; OpenAI Models; HuggingFace; NLTK; Pandas; NumPy; Matplotlib'
     work_experience:
       - company: '[Eden, Inc.](https://edenonearth.ai/)'
-        position: Forward Deployed Software Engineer
-        start_date: 2025-01
-        end_date: 2025-08
-        highlights:
-          - Spearheaded investor demo development and enhanced MVP functionality, accelerating product validation and stakeholder engagement.
-          - Influenced product direction and technical strategy through active participation in high-impact planning and leadership discussions.
-          - Interviewed, onboarded, and mentored an intern, fostering a collaborative and growth-oriented engineering culture.
-      - company: '[Eden, Inc.](https://edenonearth.ai/)'
         position: Lead Technical Engineer
         start_date: 2025-08
         highlights:
@@ -33,6 +25,14 @@ cv:
           - Serve as the primary technical liaison for external partners, investors, and third-party services, providing authoritative guidance on architecture and infrastructure.
           - Drive the transition to Agile Scrum, collaborating with the Product Owner and Scrum Master to establish SOPs, optimize development velocity, and align cross-functional teams for successful delivery.
           - Shape company direction and technical vision during a pivotal leadership transition, managing team growth and organizational strategy.
+      - company: '[Eden, Inc.](https://edenonearth.ai/)'
+        position: Forward Deployed Software Engineer
+        start_date: 2025-01
+        end_date: 2025-08
+        highlights:
+          - Spearheaded investor demo development and enhanced MVP functionality, accelerating product validation and stakeholder engagement.
+          - Influenced product direction and technical strategy through active participation in high-impact planning and leadership discussions.
+          - Interviewed, onboarded, and mentored an intern, fostering a collaborative and growth-oriented engineering culture.
       - company: Wishroute, Inc.
         position: Full-time Software Engineer Intern
         location: Portland, ME

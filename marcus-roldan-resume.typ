@@ -490,21 +490,6 @@
 
 #two-col-entry(
   left-content: [
-    #strong[Forward Deployed Software Engineer], #link("https://edenonearth.ai/")[Eden, Inc.] 
-  ],
-  right-content: [
-    Jan 2025 – Aug 2025
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Spearheaded investor demo development and enhanced MVP functionality, accelerating product validation and stakeholder engagement.],[Influenced product direction and technical strategy through active participation in high-impact planning and leadership discussions.],[Interviewed, onboarded, and mentored an intern, fostering a collaborative and growth-oriented engineering culture.],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
     #strong[Lead Technical Engineer], #link("https://edenonearth.ai/")[Eden, Inc.] 
   ],
   right-content: [
@@ -514,6 +499,21 @@
 #one-col-entry(
   content: [
     #v(design-highlights-top-margin);#highlights([Lead ongoing feature development and architectural enhancements for the MVP and upcoming product launch, leveraging AWS serverless microservices architecture.],[Orchestrate onboarding and mentorship for an expanded engineering team, ensuring rapid integration and knowledge transfer during a critical leadership transition.],[Serve as the primary technical liaison for external partners, investors, and third-party services, providing authoritative guidance on architecture and infrastructure.],[Drive the transition to Agile Scrum, collaborating with the Product Owner and Scrum Master to establish SOPs, optimize development velocity, and align cross-functional teams for successful delivery.],[Shape company direction and technical vision during a pivotal leadership transition, managing team growth and organizational strategy.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Forward Deployed Software Engineer], #link("https://edenonearth.ai/")[Eden, Inc.] 
+  ],
+  right-content: [
+    Jan 2025 – Aug 2025
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Spearheaded investor demo development and enhanced MVP functionality, accelerating product validation and stakeholder engagement.],[Influenced product direction and technical strategy through active participation in high-impact planning and leadership discussions.],[Interviewed, onboarded, and mentored an intern, fostering a collaborative and growth-oriented engineering culture.],)
   ],
 )
 
