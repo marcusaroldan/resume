@@ -7,41 +7,39 @@ cv:
       username: marcusaroldan
     - network: GitHub
       username: marcusaroldan
-  website: https://marcusaroldan.github.io/project-portfolio/)
+  website: https://marcusaroldan.github.io/project-portfolio/
   sections:
-    Professional_Summary: 
-    - CS graduate with a focus on Artificial Intelligence, full-stack web development, and applied civic tech. Proven ability to lead technical teams in startup environments and build scalable ML-backed solutions. Passionate about delivering impactful tools that integrate data, cloud infrastructure, and user-focused design.
-    Skills,_Tools,_and_Technical_Knowledge:
-    - '**Languages**: Python, Java, SQL, JavaScript/TypeScript'
-    - '**Frameworks/Libraries**: Express, Auth.js, Next.js, Flask, React, LangChain, Scikit-Learn, PyTorch'
+    'Professional Summary': 
+    - Software Engineer with two years of experience delivering production-ready backend, ML, and AI solutions in fast-paced startup environments. Led technical teams and built scalable products using Python, Java, TypeScript, AWS, and modern frameworks and architecture patterns. Skilled at translating organizational goals into effective technical solutions by designing and deploying secure healthcare microservices, architecting cloud infrastructure, and creating data-driven dashboards that improved decision-making for both internal and customer stakeholders. Recognized for quickly adapting to shifting priorities, mentoring engineers, and driving projects from concept to launch.
+    'Technical Experience':
+    - '**Frameworks/Libraries**: AWS CDK, AWS SDK, Express.js, OAuth 2.0, FHIR R4, Jest, Flask, React, LangChain, Scikit-Learn, PyTorch'
+    - '**Cloud/AWS**: Lambda, EC2 with Instance Connect, DynamoDB, S3, VPC with NAT Gateway, API Gateway, IAM, Cognito, Secrets Manager, ACM, CloudFormation, CloudWatch, SSM, SNS, Route 53'
+    - '**Architectural Patterns**: Microservices, Backend-for-Frontend, Serverless, Service Oriented, Event Driven, Proxy and Adapter Patterns, Circuit Breaker Pattern, IaC, CI/CD implementation'
+    - '**Languages**: TypeScript, JavaScript, Bash, Python, Java, SQL, Lua'
     - '**AI/ML Tools**: Amazon Bedrock, SageMaker, Rekognition, Textract; OpenAI Models; HuggingFace; NLTK; Pandas; NumPy; Matplotlib'
     work_experience:
       - company: '[Eden, Inc.](https://edenonearth.ai/)'
-        position: Lead Technical Engineer
-        start_date: 2025-08
-        highlights:
-          - Lead ongoing feature development and architectural enhancements for the MVP and upcoming product launch, leveraging AWS serverless microservices architecture.
-          - Orchestrate onboarding and mentorship for an expanded engineering team, ensuring rapid integration and knowledge transfer during a critical leadership transition.
-          - Serve as the primary technical liaison for external partners, investors, and third-party services, providing authoritative guidance on architecture and infrastructure.
-          - Drive the transition to Agile Scrum, collaborating with the Product Owner and Scrum Master to establish SOPs, optimize development velocity, and align cross-functional teams for successful delivery.
-          - Shape company direction and technical vision during a pivotal leadership transition, managing team growth and organizational strategy.
-      - company: '[Eden, Inc.](https://edenonearth.ai/)'
-        position: Forward Deployed Software Engineer
+        position: Founding Engineer, Lead Technical Engineer, Forward Deployed Software Engineer
         start_date: 2025-01
-        end_date: 2025-08
         highlights:
-          - Spearheaded investor demo development and enhanced MVP functionality, accelerating product validation and stakeholder engagement.
-          - Influenced product direction and technical strategy through active participation in high-impact planning and leadership discussions.
-          - Interviewed, onboarded, and mentored an intern, fostering a collaborative and growth-oriented engineering culture.
+          - Designed, implemented, and deployed a production-ready Backend-for-Frontend service using Node.js/TypeScript on AWS Lambda, synthesizing multiple healthcare microservices (insurance verification, EHR integration, patient/doctor management) to create single API contract for the off-shore development team.
+          - Engineered a VPC-isolated insurance verification microservice proxying pVerify APIs with Secrets Manager credential management, DynamoDB token caching, and comprehensive request validation, creating a secure, key product pillar.
+          - Maintained and extended AWS CDK infrastructure managing 18 CloudFormation stacks across 250+ resources (Lambda, DynamoDB, API Gateway, VPC, Cognito), implementing HIPAA-compliant security with CDK-Nag validation, achieved 85% test coverage and reduced operational costs through auto-scaling optimization for enhanced backend service management and orchestration.
+          - Developed key product features for TypeScript serverless patient management system including OTP-based authentication, pVerify insurance verification integration, DynamoDB-based Redis session manager implementation, to provide financially efficient and scalable product feature implementations. 
+          - Oversaw design and development of Lua-based EHR middleware service and direct integration with AthenaOne APIs, providing FHIR R4 compliant data structures for use by key product backend services, maximizing the development team's velocity by providing specifications and feedback to an intern who handled the implementation.
+          - Led team growth and development during a leadership transition by designing and implementing onboarding and mentorship programs, guiding technical vision, and managing strategy, which enabled rapid integration, fostered a collaborative culture, and ensured organizational stability.
+          - Delivered MVP for product launch by leading feature development, improving architecture with AWS serverless microservices, and building an investor demo, which accelerated product validation and increased stakeholder engagement.
+          - Transitioned the team to Agile Scrum by establishing SOPs, improving development speed, and coordinating cross-functional teams, resulting in enhanced delivery efficiency and team alignment.
+          - Provided technical leadership and strategic guidance by acting as liaison for partners, investors, and third-party services, and contributing to product direction in planning and leadership discussions, ensuring alignment of technical decisions with business goals and strengthening external relationships.
       - company: Wishroute, Inc.
         position: Full-time Software Engineer Intern
         location: Portland, ME
         start_date: 2022-01
         end_date: 2022-08
         highlights:
-          - Built scalable KPIs and SQL-powered dashboards for internal and customer-facing analytics.
-          - Contributed to Java backend improvements in AWS serverless architecture. 
-          - Participated in product strategy and adapted quickly within startup priorities.
+          - Developed SQL-powered KPI and analytics dashboards by designing scalable data models and queries, enabling internal teams and customers to access real-time analytics for better decision-making.
+          - Enhanced the Java backend within AWS serverless architecture by upgrading product features, resulting in enhanced user experience for both internal tools and customer-facing products.
+          - Shaped product strategy by collaborating with cross-functional teams and rapidly adjusting to shifting startup priorities, ensuring the team delivered features aligned with evolving business needs.
     education:
       - institution: Khoury College of Computer Sciences at Northeastern University
         area: Computer Science, concentration in Artificial Intelligence
@@ -49,50 +47,54 @@ cv:
         start_date: 2020-09
         end_date: 2024-12
         highlights:
-          - 'Relevant Courses: Artificial Intelligence | Natural Language Processing | Software Development'
           - 'Honors and Badges: **GPA: 3.41 / 4.00** | Northeastern Global Work Citizen Badge | Dean’s List'
           - 'Activities: Spanish Honors Society (Sigma Delta Pi), Transportation Engineering Club, Refugee and Immigrant Cross-cultural Conversation Partner Program, Computer Science Mentorship Organization'
     projects:
       - name: Personal Retrieval Augmented Generation System
         date: (Python, LangChain)
         highlights:
-          - Developed a Python-based Retrieval Augmented Generation (RAG) system using LangChain and OpenAI's GPT models, implementing vector similarity search with ChromaDB and HuggingFace embeddings to enable accurate document retrieval and contextual question answering.
-          - Architected a scalable document processing pipeline supporting PDF, HTML, and Markdown formats, utilizing NLTK and unstructured.io for text extraction, with intelligent chunking and batch processing to handle large document collections efficiently.
-          - Implemented a configurable command-line interface with YAML-based configuration management, allowing dynamic selection of LLM models, fine-tuning of embedding parameters, and customization of retrieval settings for optimal performance.
+          - Engineered a Python-based RAG system using LangChain and OpenAI GPT models with ChromaDB/HuggingFace vector similarity search, implementing a scalable document pipeline (PDF/HTML/Markdown) using NLTK/unstructured.io for extraction, and a YAML-configurable CLI enabling dynamic LLM model selection, embedding parameter tuning, and customized retrieval settings for optimal performance.
       - name: '311 Infrastructure Issues Identifier [(Prototype)](https://marcusaroldan.github.io/311-infrastructure-issue-identifier/)'
         date: (Python)
         highlights: 
-          - Performed text-classification on reports of Illegal Parking to diagnose infrastructure issues around Boston.
-          - 'Classification strategy: fuzzy keyword matching, with a pipeline to refresh data from Boston’s 311 API.'
-          - Implemented interactive front-end using MapBox GL to visualize geospatial data and support data filtering.
-          - Collaborated with the Boston Cyclist Union’s Data Science team for inclusion into upcoming data-dashboard.
-      - name: 'Boston Integrated Cycle Route Engine [(BICRE)](https://github.com/marcusaroldan/bicre)'
-        date: (Python, Flask)
-        highlights: 
-          - Augmented functionality of Google Maps to create integrated (cycling and transit) routes.
-          - Incorporated Google’s Directions/Geocoding APIs, Maps JS Library; MBTA API to create routes.
+          - Constructed a text-classification system using fuzzy keyword matching on Illegal Parking reports from Boston's 311 API, implementing MapBox GL visualization frontend with geospatial filtering, in collaboration with Boston Cyclist Union.
 design:
   theme: engineeringresumes
-  text:
-    font_size: 9pt
   page:
-    size: us-letter 
-    top_margin: 0.25cm
-    bottom_margin: 0.25cm
-    left_margin: 0.25cm
-    right_margin: 0.25cm
-    show_page_numbering: false
-    show_last_updated_date: false
+    size: us-letter
+    top_margin: 0.15cm
+    bottom_margin: 0.15cm
+    left_margin: 0.15cm
+    right_margin: 0.15cm
+    show_footer: false
+    show_top_note: false
+  typography:
+    font_size:
+      body: 9pt
+      name: 18pt
+      headline: 12pt
+      connections: 9pt
   header:
-    vertical_space_between_name_and_connections: 0.3cm
-    vertical_space_between_connections_and_first_section: 0.3cm
+    space_below_name: 0.25cm
+    space_below_headline: 0.25cm
+    space_below_connections: 0.25cm
+    connections:  
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      space_between_connections: 0.25cm
+  section_titles:
+    space_above: 0.3cm
+    space_below: 0.15cm
+  sections:
+    space_between_regular_entries: 0.6em
+    space_between_text_based_entries: 0.15em
 rendercv_settings:
   render_command:
-    output_folder_name: rendercv_output
-    pdf_path: marcus-roldan-resume.pdf 
-    typst_path: marcus-roldan-resume.typ
-    html_path: marcus-roldan-resume.html
-    markdown_path: marcus-roldan-resume.md
-    dont_generate_html: true
-    dont_generate_markdown: true 
-    dont_generate_png: false
+    pdf_path: marcus-roldan-resume.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false

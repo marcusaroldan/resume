@@ -3,7 +3,7 @@
 
 #let name = "Marcus Roldan"
 #let locale-catalog-page-numbering-style = context { "Marcus Roldan - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Aug 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in Jan 2026"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.2em
@@ -33,8 +33,8 @@
 #let design-header-name-font-size = 25pt
 #let design-header-name-bold = false
 #let design-header-connections-font-family = "XCharter"
-#let design-header-vertical-space-between-name-and-connections = 0.3cm
-#let design-header-vertical-space-between-connections-and-first-section = 0.3cm
+#let design-header-vertical-space-between-name-and-connections = 0.2cm
+#let design-header-vertical-space-between-connections-and-first-section = 0.2cm
 #let design-header-use-icons-for-connections = false
 #let design-header-horizontal-space-between-connections = 0.5cm
 #let design-header-separator-between-connections = "|"
@@ -50,10 +50,10 @@
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
 #let design-entries-left-and-right-margin = 0cm
-#let design-page-top-margin = 0.25cm
-#let design-page-bottom-margin = 0.25cm
-#let design-page-left-margin = 0.25cm
-#let design-page-right-margin = 0.25cm
+#let design-page-top-margin = 0.15cm
+#let design-page-bottom-margin = 0.15cm
+#let design-page-left-margin = 0.15cm
+#let design-page-right-margin = 0.15cm
 #let design-page-show-last-updated-date = false
 #let design-page-show-page-numbering = false
 #let design-links-underline = true
@@ -465,19 +465,27 @@
 
 
 #one-col-entry(
-  content: [CS graduate with a focus on Artificial Intelligence, full-stack web development, and applied civic tech. Proven ability to lead technical teams in startup environments and build scalable ML-backed solutions. Passionate about delivering impactful tools that integrate data, cloud infrastructure, and user-focused design.]
+  content: [Software Engineer with two years of experience delivering production-ready backend, ML, and AI solutions in fast-paced startup environments. Led technical teams and built scalable products using Python, Java, TypeScript, AWS, and modern frameworks and architecture patterns. Skilled at translating organizational goals into effective technical solutions by designing and deploying secure healthcare microservices, architecting cloud infrastructure, and creating data-driven dashboards that improved decision-making for both internal and customer stakeholders. Recognized for quickly adapting to shifting priorities, mentoring engineers, and driving projects from concept to launch.]
 )
 
 
-== Skills, Tools, and Technical Knowledge
+== Experienced in
 
 
 #one-col-entry(
-  content: [#strong[Languages]: Python, Java, SQL, JavaScript\/TypeScript]
+  content: [#strong[Frameworks\/Libraries]: AWS CDK, AWS SDK, Express.js, OAuth 2.0, FHIR R4, Jest, Flask, React, LangChain, Scikit-Learn, PyTorch]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Frameworks\/Libraries]: Express, Auth.js, Next.js, Flask, React, LangChain, Scikit-Learn, PyTorch]
+  content: [#strong[Cloud\/AWS]: Lambda, EC2 with Instance Connect, DynamoDB, S3, VPC with NAT Gateway, API Gateway, IAM, Cognito, Secrets Manager, ACM, CloudFormation, CloudWatch, SSM, SNS, Route 53]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Architectural Patterns]: Microservices, Backend-for-Frontend, Serverless, Service Oriented, Event Driven, Proxy and Adapter Patterns, Circuit Breaker Pattern, IaC, CI\/CD implementation]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Languages]: TypeScript, JavaScript, Bash, Python, Java, SQL, Lua]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -490,30 +498,15 @@
 
 #two-col-entry(
   left-content: [
-    #strong[Lead Technical Engineer], #link("https://edenonearth.ai/")[Eden, Inc.] 
+    #strong[Founding Engineer, Lead Technical Engineer, Forward Deployed Software Engineer], #link("https://edenonearth.ai/")[Eden, Inc.] 
   ],
   right-content: [
-    Aug 2025 – present
+    Jan 2025 – Jan 2026
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Lead ongoing feature development and architectural enhancements for the MVP and upcoming product launch, leveraging AWS serverless microservices architecture.],[Orchestrate onboarding and mentorship for an expanded engineering team, ensuring rapid integration and knowledge transfer during a critical leadership transition.],[Serve as the primary technical liaison for external partners, investors, and third-party services, providing authoritative guidance on architecture and infrastructure.],[Drive the transition to Agile Scrum, collaborating with the Product Owner and Scrum Master to establish SOPs, optimize development velocity, and align cross-functional teams for successful delivery.],[Shape company direction and technical vision during a pivotal leadership transition, managing team growth and organizational strategy.],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Forward Deployed Software Engineer], #link("https://edenonearth.ai/")[Eden, Inc.] 
-  ],
-  right-content: [
-    Jan 2025 – Aug 2025
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Spearheaded investor demo development and enhanced MVP functionality, accelerating product validation and stakeholder engagement.],[Influenced product direction and technical strategy through active participation in high-impact planning and leadership discussions.],[Interviewed, onboarded, and mentored an intern, fostering a collaborative and growth-oriented engineering culture.],)
+    #v(design-highlights-top-margin);#highlights([Designed, implemented, and deployed a production-ready Backend-for-Frontend service using Node.js\/TypeScript on AWS Lambda, synthesizing multiple healthcare microservices \(insurance verification, EHR integration, patient\/doctor management\) to create single API contract for the off-shore development team.],[Engineered a VPC-isolated insurance verification microservice proxying pVerify APIs with Secrets Manager credential management, DynamoDB token caching, and comprehensive request validation, creating a secure, key product pillar.],[Maintained and extended AWS CDK infrastructure managing 18 CloudFormation stacks across 250+ resources \(Lambda, DynamoDB, API Gateway, VPC, Cognito\), implementing HIPAA-compliant security with CDK-Nag validation, achieved 85\% test coverage and reduced operational costs through auto-scaling optimization for enhanced backend service management and orchestration.],[Developed key product features for TypeScript serverless patient management system including OTP-based authentication, pVerify insurance verification integration, DynamoDB-based Redis session manager implementation, to provide financially efficient and scalable product feature implementations.],[Oversaw design and development of Lua-based EHR middleware service and direct integration with AthenaOne APIs, providing FHIR R4 compliant data structures for use by key product backend services, maximizing the development team's velocity by providing specifications and feedback to an intern who handled the implementation.],[Led team growth and development during a leadership transition by designing and implementing onboarding and mentorship programs, guiding technical vision, and managing strategy, which enabled rapid integration, fostered a collaborative culture, and ensured organizational stability..],[Delivered MVP for product launch by leading feature development, improving architecture with AWS serverless microservices, and building an investor demo, which accelerated product validation and increased stakeholder engagement.],[Transitioned the team to Agile Scrum by establishing SOPs, improving development speed, and coordinating cross-functional teams, resulting in enhanced delivery efficiency and team alignment.],[Provided technical leadership and strategic guidance by acting as liaison for partners, investors, and third-party services, and contributing to product direction in planning and leadership discussions, ensuring alignment of technical decisions with business goals and strengthening external relationships.],)
   ],
 )
 
@@ -528,7 +521,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Built scalable KPIs and SQL-powered dashboards for internal and customer-facing analytics.],[Contributed to Java backend improvements in AWS serverless architecture.],[Participated in product strategy and adapted quickly within startup priorities.],)
+    #v(design-highlights-top-margin);#highlights([Developed SQL-powered KPI and analytics dashboards by designing scalable data models and queries, enabling internal teams and customers to access real-time analytics for better decision-making.],[Enhanced the Java backend within AWS serverless architecture by upgrading product features, resulting in enhanced user experience for both internal tools and customer-facing products.],[Shaped product strategy by collaborating with cross-functional teams and rapidly adjusting to shifting startup priorities, ensuring the team delivered features aligned with evolving business needs.],)
   ],
 )
 
@@ -549,7 +542,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([Relevant Courses: Artificial Intelligence | Natural Language Processing | Software Development],[Honors and Badges: #strong[GPA: 3.41 \/ 4.00] | Northeastern Global Work Citizen Badge | Dean’s List],[Activities: Spanish Honors Society \(Sigma Delta Pi\), Transportation Engineering Club, Refugee and Immigrant Cross-cultural Conversation Partner Program, Computer Science Mentorship Organization],)
+    #v(design-highlights-top-margin);#highlights([Honors and Badges: #strong[GPA: 3.41 \/ 4.00] | Northeastern Global Work Citizen Badge | Dean’s List],[Activities: Spanish Honors Society \(Sigma Delta Pi\), Transportation Engineering Club, Refugee and Immigrant Cross-cultural Conversation Partner Program, Computer Science Mentorship Organization],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -572,7 +565,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed a Python-based Retrieval Augmented Generation \(RAG\) system using LangChain and OpenAI's GPT models, implementing vector similarity search with ChromaDB and HuggingFace embeddings to enable accurate document retrieval and contextual question answering.],[Architected a scalable document processing pipeline supporting PDF, HTML, and Markdown formats, utilizing NLTK and unstructured.io for text extraction, with intelligent chunking and batch processing to handle large document collections efficiently.],[Implemented a configurable command-line interface with YAML-based configuration management, allowing dynamic selection of LLM models, fine-tuning of embedding parameters, and customization of retrieval settings for optimal performance.],)
+    #v(design-highlights-top-margin);#highlights([Engineered a Python-based RAG system using LangChain and OpenAI GPT models with ChromaDB\/HuggingFace vector similarity search, implementing a scalable document pipeline \(PDF\/HTML\/Markdown\) using NLTK\/unstructured.io for extraction, and a YAML-configurable CLI enabling dynamic LLM model selection, embedding parameter tuning, and customized retrieval settings for optimal performance],)
   ],
 )
 
@@ -587,22 +580,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Performed text-classification on reports of Illegal Parking to diagnose infrastructure issues around Boston.],[Classification strategy: fuzzy keyword matching, with a pipeline to refresh data from Boston’s 311 API.],[Implemented interactive front-end using MapBox GL to visualize geospatial data and support data filtering.],[Collaborated with the Boston Cyclist Union’s Data Science team for inclusion into upcoming data-dashboard.],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Boston Integrated Cycle Route Engine #link("https://github.com/marcusaroldan/bicre")[\(BICRE\)]] 
-  ],
-  right-content: [
-    (Python, Flask\)
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Augmented functionality of Google Maps to create integrated \(cycling and transit\) routes.],[Incorporated Google’s Directions\/Geocoding APIs, Maps JS Library; MBTA API to create routes.],)
+    #v(design-highlights-top-margin);#highlights([Constructed a text-classification system using fuzzy keyword matching on Illegal Parking reports from Boston's 311 API, implementing MapBox GL visualization frontend with geospatial filtering, in collaboration with Boston Cyclist Union.],)
   ],
 )
 
