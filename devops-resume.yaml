@@ -1,0 +1,100 @@
+cv:
+  name: Marcus Roldan
+  headline: DevOps and Software Engineer
+  email: marcusaroldan@gmail.com
+  phone: tel:+19732293445
+  social_networks:
+    - network: LinkedIn
+      username: marcusaroldan
+    - network: GitHub
+      username: marcusaroldan
+  website: https://marcusroldan.dev
+  sections:
+    'Professional Summary': 
+    - Terraform Certified DevOps and Software Engineer building and operating scalable, secure cloud infrastructure and CI/CD pipelines in fast-paced startup environments. Skilled at translating organizational goals into resilient, low-cost infrastructure. Recognized for driving automation, optimizing cloud spend, mentoring engineers, and delivering production-ready systems end-to-end.
+    'Technical Experience':
+    - '**Cloud/AWS**: [Certified Terraform Associate](https://www.credly.com/badges/56eafca0-cd62-4b0b-b09a-764b36c095bb), Cloudflare, ECS, ALB, Lambda, EC2 with Instance Connect, DynamoDB, S3, VPC, API Gateway, IAM, Cognito, Secrets Manager, ACM, CloudFormation, CloudWatch, SSM, SNS, Route 53'
+    work_experience:
+      - company: 'Eden, Inc.'
+        position: Founding Engineer, Lead Technical Engineer, Forward Deployed Software Engineer
+        start_date: 2025-01
+        end_date: 2026-02
+        highlights:
+          - '**Leadership:** Navigated a leadership transition by overhauling onboarding and mentorship SOPs, enabling rapid team-member integration, fostering a collaborative culture to ensure organizational stability.'
+          - '**Product Delivery:** lead MVP development by improving architecture with AWS serverless microservices, built an investor demo to accelerate product validation and increase stakeholder engagement.'
+          - '**Agile Development:** Transitioned development to Agile Scrum by establishing SOPs to improve development speed and reduce complexity of coordinating cross-functional teams, resulting in enhanced efficiency and team alignment.'
+          - '**Backend-for-Frontend:** designed, implemented, and deployed a production-ready BFF to synthesize multiple healthcare microservices, creating a single API contract for the off-shore development team.'
+          - '**Microservices:** Engineered a VPC-isolated insurance verification microservice to proxy a third-party integration utilizing Secrets Manager, DynamoDB token caching, request validation to create a secure key product pillar.'
+          - '**HIPAA Compliant Development:** Enhanced and maintained AWS CDK infrastructure over 18 CloudFormation stacks across 250+ resources, implementing HIPAA-compliant security with CDK-Nag validation, achieved 85% test coverage and reduced operational costs month-to-month through auto-scaling optimization.'
+          - '**Cloud-native Development:** Delivered key features for TypeScript serverless patient management system including OTP-based authentication, pVerify insurance verification integration, DynamoDB-based Redis session manager implementation, providing financially efficient, scalable product features.' 
+          - "**Product Management:** Oversaw design and development of Lua-based EHR middleware service and direct integration with AthenaOne APIs, providing FHIR R4 compliant data structures for internal services, creating mission-citical bridge to provider systems."
+          - '**Partner Liason:** Provided technical leadership and strategic guidance to partners, investors, and third-party services, and internal leadership, ensuring alignment of technical decisions with business goals and strengthening external relationships.'
+      - company: Wishroute, Inc.
+        position: Full-time Software Engineer Intern
+        location: Portland, ME
+        start_date: 2022-01
+        end_date: 2022-08
+        highlights:
+          - '**Internal Analytics:** Owned and implemented SQL-powered KPI and analytics dashboards utilizing scalable data models and queries to enable internal teams and customers to access real-time data for enhanced decision-making.'
+          - '**Backend Development:** Upgraded features within the Java backend of AWS serverless architecture, resulting in improved user experience for internal tools and customer-facing products.'
+          - '**Cross-functional Collaboration:** Shaped product strategy across internal teams, rapidly adjusting to shifting startup priorities, ensuring the team delivered features aligned with evolving business needs.'
+    education:
+      - institution: Khoury College of Computer Sciences at Northeastern University
+        area: Computer Science, concentration in Artificial Intelligence
+        degree: BS
+        start_date: 2020-09
+        end_date: 2024-12
+        highlights:
+          - 'Honors and Badges: **GPA: 3.41 / 4.00** | Northeastern Global Work Citizen Badge | Dean’s List'
+          - 'Activities: Spanish Honors Society (Sigma Delta Pi), Transportation Engineering Club, Refugee and Immigrant Cross-cultural Conversation Partner Program, Computer Science Mentorship Organization'
+    projects:
+      - name: High-Performance, Low-Cost Professional Portfolio ([marcusroldan.dev](https://marcusroldan.dev))
+        date: (Terraform HCL, Golang)
+        highlights:
+          - Engineered highly available, multi-tenant cloud infrastructure for high operational performance with minimal infrastructure overhead.
+          - Implemented via serverless, AWS CloudFront and S3 edge network, alongside AWS Fargate containers inside secure, scalable VPC network topology.
+          - Deployed and managed using declarative Terraform HCL modules, tracking infrastructure state inside a secure remote S3 bucket.
+      - name: '311 Infrastructure Issues Identifier [(Prototype)](https://marcusaroldan.github.io/311-infrastructure-issue-identifier/)'
+        date: (Python)
+        highlights: 
+          - Constructed a text-classification system using fuzzy keyword matching on Illegal Parking reports from Boston's 311 API, implementing MapBox GL visualization frontend with geospatial filtering, in collaboration with Boston Cyclist Union.
+design:
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    top_margin: 0.5cm
+    bottom_margin: 0.5cm
+    left_margin: 0.75cm
+    right_margin: 0.75cm
+    show_footer: false
+    show_top_note: false
+  typography:
+    font_size:
+      body: 9pt
+      name: 18pt
+      headline: 12pt
+      connections: 9pt
+  header:
+    space_below_name: 0.25cm
+    space_below_headline: 0.25cm
+    space_below_connections: 0.25cm
+    connections:  
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      space_between_connections: 0.25cm
+  section_titles:
+    space_above: 0.5cm
+    space_below: 0.15cm
+  sections:
+    space_between_regular_entries: 0.6em
+    space_between_text_based_entries: 0.15em
+settings:
+  render_command:
+    pdf_path: rendercv_output/devops/marcus-roldan-resume-2026.pdf
+    markdown_path: rendercv_output/devops/devops-resume.md
+    html_path: rendercv_output/devops/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/devops/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false

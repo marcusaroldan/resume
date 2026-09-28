@@ -21,6 +21,7 @@ cv:
       - company: '[Eden, Inc.](https://edenonearth.ai/)'
         position: Founding Engineer, Lead Technical Engineer, Forward Deployed Software Engineer
         start_date: 2025-01
+        end_date: 2026-02
         highlights:
           - Designed, implemented, and deployed a production-ready Backend-for-Frontend service using Node.js/TypeScript on AWS Lambda, synthesizing multiple healthcare microservices (insurance verification, EHR integration, patient/doctor management) to create single API contract for the off-shore development team.
           - Engineered a VPC-isolated insurance verification microservice proxying pVerify APIs with Secrets Manager credential management, DynamoDB token caching, and comprehensive request validation, creating a secure, key product pillar.
@@ -88,13 +89,13 @@ design:
   sections:
     space_between_regular_entries: 0.6em
     space_between_text_based_entries: 0.15em
-rendercv_settings:
+settings:
   render_command:
     pdf_path: marcus-roldan-resume.pdf
     markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
     html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
     png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
-    dont_generate_markdown: true
+    dont_generate_markdown: false
     dont_generate_html: false
     dont_generate_typst: false
     dont_generate_pdf: false
